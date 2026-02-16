@@ -1,0 +1,12 @@
+prefix=/Users/satyamgajjar/Documents/Data Science Projects/19 Other Projects /02 End To End ML Project With Deployment - KN/mlproject/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Readline
+Description: Gnu Readline library for command line editing
+URL: http://tiswww.cwru.edu/php/chet/readline/rltop.html
+Version: 8.3
+Requires.private: ncurses
+Libs: -L${libdir} -lreadline
+Cflags: -I${includedir}

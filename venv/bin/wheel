@@ -1,0 +1,11 @@
+#!/bin/sh
+'''exec' "/Users/satyamgajjar/Documents/Data Science Projects/19 Other Projects /02 End To End ML Project With Deployment - KN/mlproject/venv/bin/python3.9" "$0" "$@" #'''
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from wheel.cli import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

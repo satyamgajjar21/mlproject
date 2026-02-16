@@ -1,0 +1,11 @@
+prefix=/Users/satyamgajjar/Documents/Data Science Projects/19 Other Projects /02 End To End ML Project With Deployment - KN/mlproject/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/satyamgajjar/Documents/Data Science Projects/19 Other Projects /02 End To End ML Project With Deployment - KN/mlproject/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.5.2
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
