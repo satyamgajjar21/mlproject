@@ -117,7 +117,7 @@ class DataTransformation:
             # Only transform test data (IMPORTANT: do not fit again)
             input_feature_test_arr=preprocessing_obj.transform(input_feature_test_df)
 
-            # Combine transformed features with target column
+            # Combine transformed features with target column, Converts pandas Series → numpy array.
             train_arr = np.c_[
                 input_feature_train_arr, np.array(target_feature_train_df)
             ]
