@@ -1,6 +1,6 @@
-# 🎓 Student Performance Prediction – End to End MLOps Project
+#  Student Performance Prediction – End to End MLOps Project
 
-## 📌 Project Overview
+##  Project Overview
 
 This project is an end to end Machine Learning pipeline that predicts student performance using multiple regression models.  
 
@@ -20,21 +20,21 @@ This project demonstrates a complete real world MLOps workflow.
 
 ---
 
-## 🧠 Machine Learning Pipeline
+##  Machine Learning Pipeline
 
-### 1️⃣ Data Ingestion
+### 1️ Data Ingestion
 - Load dataset
 - Split into train and test
 - Save raw and processed data inside artifacts folder
 
-### 2️⃣ Data Transformation
+### 2️ Data Transformation
 - Handle missing values
 - Feature scaling
 - Encoding categorical variables
 - Create preprocessing pipeline
 - Save preprocessor object
 
-### 3️⃣ Model Training
+### 3️ Model Training
 
 Multiple regression models are trained:
 
@@ -55,7 +55,7 @@ Best model is saved as: artifacts/model.pkl
 
 ---
 
-## 🐳 Docker Setup
+##  Docker Setup
 
 The application is containerized using Docker.
 
@@ -92,7 +92,7 @@ docker run -p 8080:8080 studentperformance
 
 ---
 
-## 🔄 CI CD Pipeline
+##  CI CD Pipeline
 
 Workflow file located at: .github/workflows/main.yaml
 
@@ -118,7 +118,7 @@ Pipeline Stages:
 
 ---
 
-## 🖥 EC2 Setup Commands
+##  EC2 Setup Commands
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
@@ -134,7 +134,7 @@ Install GitHub runner on EC2 and configure with repository.
 
 ---
 
-## 🔐 GitHub Secrets Required
+##  GitHub Secrets Required
 
 Add these in repository settings:
 
@@ -145,7 +145,7 @@ Add these in repository settings:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 .
 ├── artifacts
 │ └── model.pkl
@@ -167,7 +167,7 @@ Add these in repository settings:
 
 ---
 
-## 🚀 How to Run Project Locally
+##  How to Run Project Locally
 
 1. Clone repository
 git clone <repo_url>
@@ -195,7 +195,7 @@ python app.py
 
 ---
 
-## 📊 Model Evaluation Metric
+##  Model Evaluation Metric
 
 Primary evaluation metric:
 
@@ -205,7 +205,7 @@ Best performing model is automatically selected during training phase.
 
 ---
 
-## 🎯 Key Features
+##  Key Features
 
 - Modular ML architecture
 - Config driven pipeline
@@ -214,7 +214,7 @@ Best performing model is automatically selected during training phase.
 - End to end CI CD
 - Cloud deployment ready
 
-## 👨‍💻 Author
+##  Author
 
 Satyam Gajjar  
 
